@@ -1,0 +1,50 @@
+.spot {
+  background-color: $color-secondary;
+  grid-column: col-start 7 / full-end;
+  padding: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  &__list {
+    display: grid;
+    grid-template-columns: min-content max-content;
+    align-items: center;
+    grid-column-gap: 2rem;
+    grid-row-gap: 5vh;
+  }
+  &__img {
+    width: 8rem;
+    border: none;
+    border-radius: 50%;
+  }
+  &__details {
+    text-transform: uppercase;
+    color: $color-grey-light-2;
+    margin-top: -3px;
+  }
+
+  @media only screen and (max-width: $bp-md) {
+    grid-column: 1/-1;
+    .heading-3 {
+      display: none;
+    }
+
+    &__list {
+      grid-template-columns: repeat(3, min-content max-content);
+      grid-column-gap: 1.6rem;
+    }
+
+    &__img {
+      width: 7rem;
+    }
+  }
+
+  @media only screen and (max-width: $bp-sm) {
+    &__list {
+      grid-template-columns: min-content max-content;
+    }
+  }
+}

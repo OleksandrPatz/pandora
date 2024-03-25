@@ -1,0 +1,32 @@
+.features {
+  margin: 15rem 0;
+  grid-column: center-start/center-end;
+
+  display: grid;
+  gap: 6rem;
+  // grid-template-columns: repeat(3, 1fr);
+  // width of each of the tracks should always stay between 250 rem and one fractional unit.
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(25rem, 1fr)
+  ); //reate as many tracks as can fit  based on the width that we define.  This width that we define here will be with the minmax function.
+}
+
+.feature {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 2.4rem;
+  grid-row-gap: 1.4rem;
+  align-content: start;
+
+  &__icon {
+    transform: translateY(-1rem);
+    width: 4.5rem;
+    height: 4.5rem;
+    fill: $color-primary-shine;
+    grid-row: 1 / span 2;
+  }
+  &__text {
+    font-size: 1.7rem;
+  }
+}

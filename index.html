@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <script defer src="script.js"></script>
+
+    <title>pandora &mdash; your helth, your freedom</title>
+  </head>
+  <body class="container">
+    <div class="sidebar"></div>
+
+    <header class="header">
+      <img src="img/icon.png" alt="Header logo" class="header__logo" />
+
+      <h3 class="heading-3">Your spa salon</h3>
+      <h1 class="heading-1">The luxury of relaxation in your city.</h1>
+      <button id="headerBtn" class="btn header__btn">
+        Choose your favorite
+      </button>
+      <div class="header__seenon-text">Seen on</div>
+      <div class="header__seenon-logos">
+        <img src="img/logo-bbc.png" alt="Seen on logo 1" />
+        <img src="img/logo-forbes.png" alt="Seen on logo 2" />
+        <img src="img/logo-techcrunch.png" alt="Seen on logo 3" />
+        <img src="img/logo-bi.png" alt="Seen on logo 4" />
+      </div>
+    </header>
+
+    <div class="spot">
+      <h3 class="heading-3">Top 3 masters</h3>
+      <div class="spot__list">
+        <img src="img/pers-1.jpg" alt="pers-1" class="spot__img" />
+        <div class="spot__details">
+          <h4 class="heading-4 headind-4--light">Lisa Kovalski</h4>
+          <p class="spot__quality">5 years experience</p>
+        </div>
+
+        <img src="img/pers-2.jpg" alt="pers-2" class="spot__img" />
+        <div class="spot__details">
+          <h4 class="heading-4 headind-4--light">Monica Geller</h4>
+          <p class="spot__quality">7 years experience</p>
+        </div>
+
+        <img src="img/pers-3.jpg" alt="pers-3" class="spot__img" />
+        <div class="spot__details">
+          <h4 class="heading-4 headind-4--light">Matthew Perry</h4>
+          <p class="spot__quality">4 years experience</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="features">
+      <div class="feature">
+        <svg class="feature__icon">
+          <use xlink:href="img/sprite.svg#icon-world"></use>
+        </svg>
+        <h4 class="heading-4 heading-4--dark">World's best luxury spas</h4>
+        <p class="feature__text">
+          Our globally acclaimed sanctuaries are synonymous with unparalleled
+          indulgence and bespoke wellness.
+        </p>
+      </div>
+
+      <div class="feature">
+        <svg class="feature__icon">
+          <use xlink:href="img/sprite.svg#icon-diamond"></use>
+        </svg>
+        <h4 class="heading-4 heading-4--dark">Awards winner</h4>
+        <p class="feature__text">
+          Celebrated for excellence, our spa is a distinguished recipient of
+          prestigious awards.
+        </p>
+      </div>
+
+      <div class="feature">
+        <svg class="feature__icon">
+          <use xlink:href="img/sprite.svg#icon-location"></use>
+        </svg>
+        <h4 class="heading-4 heading-4--dark">All salons in top locations</h4>
+        <p class="feature__text">
+          Strategically situated in the most coveted locales, our salons offer
+          an escape into a world of elegance and serenity.
+        </p>
+      </div>
+
+      <div class="feature">
+        <svg class="feature__icon">
+          <use xlink:href="img/sprite.svg#icon-star"></use>
+        </svg>
+        <h4 class="heading-4 heading-4--dark">The most famous experts</h4>
+        <p class="feature__text">
+          Be pampered by the hands of the world’s most renowned spa experts,
+          each dedicated to your personalized care and well-being.
+        </p>
+      </div>
+
+      <div class="feature">
+        <svg class="feature__icon">
+          <use xlink:href="img/sprite.svg#icon-calendar"></use>
+        </svg>
+        <h4 class="heading-4 heading-4--dark">We work 365 days a year</h4>
+        <p class="feature__text">
+          Your journey to rejuvenation never pauses—our doors are open every day
+          of the year, ensuring a sanctuary for relaxation is always available.
+        </p>
+      </div>
+
+      <div class="feature">
+        <svg class="feature__icon">
+          <use xlink:href="img/sprite.svg#icon-lock"></use>
+        </svg>
+        <h4 class="heading-4 heading-4--dark">Secure account</h4>
+        <p class="feature__text">
+          Our secure account system safeguards your privacy and personal
+          preferences for a seamless wellness journey.
+        </p>
+      </div>
+    </section>
+
+    <div class="story__picture">
+      <img class="story__img-1" src="img/sauna-in-2.jpg" alt="spa room" />
+
+      <img class="story__img-2" src="img/procedure-2.jpg" alt="spa room" />
+    </div>
+
+    <div class="story__content">
+      <h3 class="heading-3 mb-sm">Happy Customers</h3>
+      <h2 class="heading-2 heading-2--dark mb-md">
+        &ldquo;The best experience of our lives&rdquo;
+      </h2>
+      <p class="story__text">
+        The expert treatments and the tranquil setting makes
+        <span class="spa-name">&ldquo;Azure Retreat&rdquo;</span> not just a
+        spa, but an experience that revitalizes the body and soul.
+      </p>
+      <button class="btn">Find your own home</button>
+    </div>
+
+    <section id="saunas" class="saunas">
+      <!-- CARD 1 -->
+      <div class="sauna">
+        <img src="img/sauna-in-6.jpg" alt="sauna-1" />
+        <svg class="sauna__like">
+          <use xlink:href="img/sprite.svg#icon-heart"></use>
+        </svg>
+        <h5 class="sauna__name">Frostfire Pass</h5>
+        <div class="sauna__location">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-location"></use>
+          </svg>
+          <p>Switzerland</p>
+        </div>
+        <div class="sauna__places">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-user"></use>
+          </svg>
+          <p>12 guests</p>
+        </div>
+        <div class="sauna__feature">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-food"></use>
+          </svg>
+          <p>Grilled food</p>
+        </div>
+        <div class="sauna__price">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-key"></use>
+          </svg>
+          <p>180$</p>
+        </div>
+        <button class="btn sauna__btn">Contact manager</button>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="sauna">
+        <img src="img/sauna-in-4.jpg" alt="sauna-1" />
+        <svg class="sauna__like">
+          <use xlink:href="img/sprite.svg#icon-heart"></use>
+        </svg>
+        <h5 class="sauna__name">Silent Pinnacle</h5>
+        <div class="sauna__location">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-location"></use>
+          </svg>
+          <p>Switzerland</p>
+        </div>
+        <div class="sauna__places">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-user"></use>
+          </svg>
+          <p>8 guests</p>
+        </div>
+        <div class="sauna__feature">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-fire"></use>
+          </svg>
+          <p>Hot tub</p>
+        </div>
+        <div class="sauna__price">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-key"></use>
+          </svg>
+          <p>145$</p>
+        </div>
+        <button class="btn sauna__btn">Contact manager</button>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="sauna">
+        <img src="img/sauna-4.jpg" alt="sauna-1" />
+        <svg class="sauna__like">
+          <use xlink:href="img/sprite.svg#icon-heart"></use>
+        </svg>
+        <h5 class="sauna__name">Celestial Falls</h5>
+        <div class="sauna__location">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-location"></use>
+          </svg>
+          <p>Norway</p>
+        </div>
+        <div class="sauna__places">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-user"></use>
+          </svg>
+          <p>10 guests</p>
+        </div>
+        <div class="sauna__feature">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-fire"></use>
+          </svg>
+          <p>Hot tub</p>
+        </div>
+        <div class="sauna__price">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-key"></use>
+          </svg>
+          <p>220$</p>
+        </div>
+        <button class="btn sauna__btn">Contact manager</button>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="sauna">
+        <img src="img/sauna-4.webp" alt="sauna-1" />
+        <svg class="sauna__like">
+          <use xlink:href="img/sprite.svg#icon-heart"></use>
+        </svg>
+        <h5 class="sauna__name">Ocean’s Oasis</h5>
+        <div class="sauna__location">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-location"></use>
+          </svg>
+          <p>Norway</p>
+        </div>
+        <div class="sauna__places">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-user"></use>
+          </svg>
+          <p>5 guests</p>
+        </div>
+        <div class="sauna__feature">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-food"></use>
+          </svg>
+          <p>Grilled food</p>
+        </div>
+        <div class="sauna__price">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-key"></use>
+          </svg>
+          <p>165$</p>
+        </div>
+        <button class="btn sauna__btn">Contact manager</button>
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="sauna">
+        <img src="img/sauna-in-1.jpg" alt="sauna-1" />
+        <svg class="sauna__like">
+          <use xlink:href="img/sprite.svg#icon-heart"></use>
+        </svg>
+        <h5 class="sauna__name">Wavecrest Bluff</h5>
+        <div class="sauna__location">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-location"></use>
+          </svg>
+
+          <p>Switzerland</p>
+        </div>
+        <div class="sauna__places">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-user"></use>
+          </svg>
+          <p>10 guests</p>
+        </div>
+        <div class="sauna__feature">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-food"></use>
+          </svg>
+          <p>Grilled food</p>
+        </div>
+        <div class="sauna__price">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-key"></use>
+          </svg>
+          <p>150$</p>
+        </div>
+        <button class="btn sauna__btn">Contact manager</button>
+      </div>
+
+      <!-- CARD 6 -->
+      <div class="sauna">
+        <img src="img/sauna-in-7.jpg" alt="sauna-6" />
+        <svg class="sauna__like">
+          <use xlink:href="img/sprite.svg#icon-heart"></use>
+        </svg>
+        <h5 class="sauna__name">Echo Summit</h5>
+        <div class="sauna__location">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-location"></use>
+          </svg>
+          <p>Sweden</p>
+        </div>
+        <div class="sauna__places">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-user"></use>
+          </svg>
+          <p>16 guests</p>
+        </div>
+        <div class="sauna__feature">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-fire"></use>
+          </svg>
+          <p>Hot tub</p>
+        </div>
+        <div class="sauna__price">
+          <svg>
+            <use xlink:href="img/sprite.svg#icon-key"></use>
+          </svg>
+          <p>245$</p>
+        </div>
+        <button class="btn sauna__btn">Contact manager</button>
+      </div>
+    </section>
+
+    <!-- SECTION GALLERY -->
+    <!-- Тег <figure> в HTML використовується для позначення самостійного контенту, такого як ілюстрації, діаграми, фотографії, списки коду тощо. Вміст тега <figure> пов’язаний з основним потоком документа, але його позиція незалежна від основного потоку, і якщо його видалити, це не повинно вплинути на потік документа -->
+    <!-- Щоь розташувати  картинки в конкретній клітці чи зоні ГРІДА, додаємо батьківський дів, щоб для дочрньго елементу(фото) застосувати властивість object-fit:cover 
+  IMPORTANT: define height and width of the img -->
+    <section class="gallery">
+      <figure class="gallery__item gallery__item-1">
+        <img
+          src="img/gal-img-1.jpg"
+          alt="gallery image-1"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-2">
+        <img
+          src="img/gal-img-2.jpg"
+          alt="gallery image-2"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-3">
+        <img
+          src="img/gal-img-3.jpg"
+          alt="gallery image-3"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-4">
+        <img
+          src="img/gal-img-4.jpg"
+          alt="gallery image-4"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-5">
+        <img
+          src="img/gal-img-5.jpg"
+          alt="gallery image-5"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-6">
+        <img
+          src="img/gal-img-6.jpg"
+          alt="gallery image-6"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-7">
+        <img
+          src="img/gal-img-7.jpg"
+          alt="gallery image-7"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-8">
+        <img
+          src="img/gal-img-8.jpg"
+          alt="gallery image-8"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-9">
+        <img
+          src="img/gal-img-9.jpg"
+          alt="gallery image-9"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-10">
+        <img
+          src="img/gal-img-10.jpg"
+          alt="gallery image-10"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-11">
+        <img
+          src="img/gal-img-11.jpg"
+          alt="gallery image-11"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-12">
+        <img
+          src="img/gal-img-12.jpg"
+          alt="gallery image-12"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-13">
+        <img
+          src="img/gal-img-13.jpg"
+          alt="gallery image-13"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-14">
+        <img
+          src="img/gal-img-14.jpg"
+          alt="gallery image-14"
+          class="gallery__img"
+        />
+      </figure>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__box">
+        <ul class="nav">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Find your dream spa</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Request proposal</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Terms and conditions</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Contact us</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Manager suppor</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Come work with us</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__box">
+        <p class="copyright">
+          Copyright © 2024 by Oleksandr Patsula. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

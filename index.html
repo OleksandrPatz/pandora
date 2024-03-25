@@ -12,21 +12,21 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="shortcut icon" type="image/png" href="img/icon.png" />
 
+    <script defer src="script.js"></script>
+
     <title>pandora &mdash; your helth, your freedom</title>
   </head>
   <body class="container">
-    <div class="sidebar">
-     
-        <button class="nav-btn"></button>
-   
-    </div>
+    <div class="sidebar"></div>
 
     <header class="header">
       <img src="img/icon.png" alt="Header logo" class="header__logo" />
 
       <h3 class="heading-3">Your spa salon</h3>
       <h1 class="heading-1">The luxury of relaxation in your city.</h1>
-      <button class="btn  header__btn">Choose your favorite</button>
+      <button id="headerBtn" class="btn header__btn">
+        <a href="#saunas" class="header__btn-link">Choose your favorite</a>
+      </button>
       <div class="header__seenon-text">Seen on</div>
       <div class="header__seenon-logos">
         <img src="img/logo-bbc.png" alt="Seen on logo 1" />
@@ -38,28 +38,25 @@
 
     <div class="spot">
       <h3 class="heading-3">Top 3 masters</h3>
-    <div class="spot__list">
-      <img src="img/pers-1.jpg" alt="pers-1" class="spot__img">
-      <div class="spot__details">
-        <h4 class="heading-4 headind-4--light">Lisa Kovalski</h4>
-        <p class="spot__quality">5 years experience</p>
-      </div>
-   
+      <div class="spot__list">
+        <img src="img/pers-1.jpg" alt="pers-1" class="spot__img" />
+        <div class="spot__details">
+          <h4 class="heading-4 headind-4--light">Lisa Kovalski</h4>
+          <p class="spot__quality">5 years experience</p>
+        </div>
 
-    
-      <img src="img/pers-2.jpg" alt="pers-2" class="spot__img">
-      <div class="spot__details">
-        <h4 class="heading-4 headind-4--light">Monica Geller</h4>
-        <p class="spot__quality">7 years experience</p>
-      </div>
-   
-      <img src="img/pers-3.jpg" alt="pers-3" class="spot__img">
-      <div class="spot__details">
-        <h4 class="heading-4 headind-4--light">Matthew Perry</h4>
-        <p class="spot__quality">4 years experience</p>
-      </div>
-    </div>
+        <img src="img/pers-2.jpg" alt="pers-2" class="spot__img" />
+        <div class="spot__details">
+          <h4 class="heading-4 headind-4--light">Monica Geller</h4>
+          <p class="spot__quality">7 years experience</p>
+        </div>
 
+        <img src="img/pers-3.jpg" alt="pers-3" class="spot__img" />
+        <div class="spot__details">
+          <h4 class="heading-4 headind-4--light">Matthew Perry</h4>
+          <p class="spot__quality">4 years experience</p>
+        </div>
+      </div>
     </div>
 
     <section class="features">
@@ -149,7 +146,7 @@
       <button class="btn">Find your own home</button>
     </div>
 
-    <section class="saunas">
+    <section id="saunas" class="saunas">
       <!-- CARD 1 -->
       <div class="sauna">
         <img src="img/sauna-in-6.jpg" alt="sauna-1" />
@@ -302,8 +299,8 @@
         </div>
         <div class="sauna__places">
           <svg>
-            <use xlink:href="img/sprite.svg#icon-user"><use>
-            </svg>
+            <use xlink:href="img/sprite.svg#icon-user"></use>
+          </svg>
           <p>10 guests</p>
         </div>
         <div class="sauna__feature">

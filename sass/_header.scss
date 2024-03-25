@@ -26,6 +26,12 @@
   &__btn {
     align-self: start;
     justify-self: start;
+    &-link,
+    &-link:link,
+    &-link:visited {
+      text-decoration: none;
+      color: currentColor;
+    }
   }
 
   &__seenon-text {

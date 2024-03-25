@@ -166,6 +166,10 @@ body {
   align-self: start;
   justify-self: start;
 }
+.header__btn-link, .header__btn-link:link, .header__btn-link:visited {
+  text-decoration: none;
+  color: currentColor;
+}
 .header__seenon-text {
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
